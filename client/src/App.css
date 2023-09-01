@@ -1,0 +1,64 @@
+:root {
+  --light-blue: #04c3ff;
+  --light-blue-shadow: rgb(69 211 255 / 27%);
+  --sea-green: #0abead;
+  --sea-green-dark: #0cbfae;
+  --sea-green-extra-dark: #09bead;
+  --sea-green-shadow: rgba(11, 190, 173, 0.4);
+  --header-hamburger-background: rgba(11, 190, 173, 0.8);
+  --orange: #f57f17;
+  --dark-orange: #ff5823;
+  --orange-shadow: rgba(245, 127, 23, 0.2);
+  --white: #ffffff;
+  --black: #333333;
+  --disabled-btn: #09bead7a;
+  --error-message: #e44f4fd1;
+  --toast-error: #e44f4ffa;
+  --toast-shadow: #9c9c9ce3;
+  --toast-success: #0cbfae;
+  --loader-color: #0cbfae;
+}
+
+.call-to-action-button {
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  z-index: 1000;
+}
+
+.cta-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.cta-btn img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.7;
+}
+
+.cta-btn:hover {
+  transform: scale(1.1);
+}
+
+.cta-btn:focus {
+  outline: none;
+}
+.hidden {
+  opacity: 0;
+  transition: transform 0.5s, opacity 1.5s;
+}
+.apear {
+  transform: scale(0.8);
+  transition: transform 1.5s, opacity 1s;
+}
+
+@media (max-width: 768px) {
+  .call-to-action-button {
+    display: none;
+  }
+}
