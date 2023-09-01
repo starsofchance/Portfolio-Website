@@ -47,7 +47,13 @@
   border-radius: 10px;
   margin-bottom: 50px;
 }
-
+.email {
+  text-decoration: none;
+  color: #0a2c47;
+}
+.contactMassage {
+  text-align: center;
+}
 .central-form form {
   width: auto;
   box-shadow: 0 0 2px 1px white;

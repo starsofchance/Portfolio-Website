@@ -69,7 +69,12 @@ export default function ContactMe(props) {
       />
       <div className="central-form">
         <div className="col">
-          <h2 className="title">Get In Touch 📧</h2>{" "}
+          <h2 className="title">
+            Get In Touch{" "}
+            <a href="mailto:starsofchance@gmail.com" className="email">
+              (Click Here) 📧
+            </a>
+          </h2>{" "}
           <a
             href="https://github.com/starsofchance"
             target="_blank"
@@ -101,7 +106,9 @@ export default function ContactMe(props) {
         </div>
         <div className="back-form">
           <div className="img-back">
-            <h4>Email me.</h4>
+            <h4 className="contactMassage">
+              You can also Email me Using the form.
+            </h4>
             <img src={imgBack} alt="image not found" />
           </div>
 
