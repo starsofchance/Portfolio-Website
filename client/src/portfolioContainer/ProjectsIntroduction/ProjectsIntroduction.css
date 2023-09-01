@@ -45,12 +45,13 @@
   line-height: 26px;
   font-weight: 400;
   margin: 0 0 10px;
-  font-style: italic;
+  font-style: normal;
 }
 .ProjectsIntroduction-section .testi-item p a {
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Make the text bold */
   cursor: pointer; /* Change cursor to pointer on hover */
+  color: #258c95;
 }
 .ProjectsIntroduction-section .testi-item img {
   border: 2px solid transparent;

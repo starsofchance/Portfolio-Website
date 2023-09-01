@@ -8,12 +8,12 @@ import ScrollService from "../../uitilities/ScrollService";
 import Animations from "../../uitilities/Animations";
 
 // importing images of projects
-import lady from "../../../src/img/ProjectsIntroduction/Animation1.gif";
-import mike from "../../../src/img/ProjectsIntroduction/Animation2.gif";
-import man from "../../../src/img/ProjectsIntroduction/Animation3.gif";
-import ma2 from "../../../src/img/ProjectsIntroduction/Animation4.gif";
-import man3 from "../../../src/img/ProjectsIntroduction/Animation5.gif";
-import man4 from "../../../src/img/ProjectsIntroduction/Animation6.gif";
+import SimonGame from "../../../src/img/ProjectsIntroduction/Animation1.gif";
+import DrumKit from "../../../src/img/ProjectsIntroduction/Animation2.gif";
+import DocumentationApp from "../../../src/img/ProjectsIntroduction/Animation3.gif";
+import FunAge from "../../../src/img/ProjectsIntroduction/Animation4.gif";
+import PassWordG from "../../../src/img/ProjectsIntroduction/Animation5.gif";
+import chCounter from "../../../src/img/ProjectsIntroduction/Animation6.gif";
 
 // import footer shape
 import shape from "../../../src/img/ProjectsIntroduction/shape-bg.png";
@@ -73,13 +73,16 @@ export default function ProjectsIntroduction(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
+                      <a
+                        href="https://starsofchance.github.io/50-HTML-CSS-JS-Project-14/"
+                        target="_blank"
+                      >
+                        Simon Game
                       </a>
                     </p>
                   </div>
                   <div className="project-info">
-                    <img src={lady} alt="no internet connection"></img>
+                    <img src={SimonGame} alt="no internet connection"></img>
                   </div>
                 </div>
               </div>
@@ -87,13 +90,16 @@ export default function ProjectsIntroduction(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
+                      <a
+                        href="https://starsofchance.github.io/50-HTML-CSS-JS-Project-7/"
+                        target="_blank"
+                      >
+                        Real-time Character Counter
                       </a>
                     </p>
                   </div>
                   <div className="project-info">
-                    <img src={mike} alt="no internet connection"></img>
+                    <img src={chCounter} alt="no internet connection"></img>
                   </div>
                 </div>
               </div>
@@ -101,13 +107,34 @@ export default function ProjectsIntroduction(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
+                      <a
+                        href="https://starsofchance.github.io/50-HTML-CSS-JS-Project-13/"
+                        target="_blank"
+                      >
+                        Drum Kit
                       </a>
                     </p>
                   </div>
                   <div className="project-info">
-                    <img src={man} alt="no internet connection"></img>
+                    <img src={DrumKit} alt="no internet connection"></img>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <a
+                        href="https://starsofchance.github.io/50-HTML-CSS-JS-Project-10/"
+                        target="_blank"
+                      >
+                        Funny Age Calculator
+                      </a>
+                    </p>
+                  </div>
+                  <div className="project-info">
+                    <img src={FunAge} alt="no internet connection"></img>
                   </div>
                 </div>
               </div>
@@ -115,41 +142,37 @@ export default function ProjectsIntroduction(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
+                      <a
+                        href="https://github.com/starsofchance/My-Documentation-Project"
+                        target="_blank"
+                      >
+                        Documentation App
                       </a>
                     </p>
                   </div>
                   <div className="project-info">
-                    <img src={ma2} alt="no internet connection"></img>
+                    <img
+                      src={DocumentationApp}
+                      alt="no internet connection"
+                    ></img>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
+                      <a
+                        href="https://starsofchance.github.io/50-HTML-CSS-JS-Project-9/"
+                        target="_blank"
+                      >
+                        Random Password Generator
                       </a>
                     </p>
                   </div>
                   <div className="project-info">
-                    <img src={man3} alt="no internet connection"></img>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <a href="https://www.google.com" target="_blank">
-                        I patronized
-                      </a>
-                    </p>
-                  </div>
-                  <div className="project-info">
-                    <img src={man4} alt="no internet connection"></img>
+                    <img src={PassWordG} alt="no internet connection"></img>
                   </div>
                 </div>
               </div>
