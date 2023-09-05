@@ -28,17 +28,17 @@ export default function Resume(props) {
           <span>{props.heading ? props.heading : ""}</span>
           {props.fromDate && props.toDate ? (
             <div className="heading-date">
-              {props.fromDate + "-" + props.toDate}
+              {props.fromDate + " " + props.toDate}
             </div>
           ) : (
             <div></div>
           )}
         </div>
-        <div className="resume-sub-heading">
-          <span>{props.subHeading ? props.subHeading : ""}</span>
-        </div>
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
+        </div>
+        <div className="resume-sub-heading">
+          <span>{props.subHeading ? props.subHeading : ""}</span>
         </div>
       </div>
     );
@@ -70,26 +70,24 @@ export default function Resume(props) {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "08-2023", toDate: " " },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+      subHeading: "Technologies Used: React JS, Bootstrap.",
     },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Documentation App",
+      duration: { fromDate: "06-2023", toDate: " " },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
-      subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Constructed an Interactive documentation platform utilizing React.js, React hooks, state management, data integration, andSupabase for data management.",
+      subHeading: "Technologies Used:  React, Express Js, Node Js.",
     },
     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "50 HTML, CSS, JS ",
+      duration: { fromDate: "03-2023", toDate: " " },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-      subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Building 50 mini projects using HTML, CSS, and vanilla JavaScript significantly contributed to mastering the fundamentals of web development",
+      subHeading: "Technologies Used: CSS, HTML, JS.",
     },
   ];
 
@@ -134,26 +132,20 @@ export default function Resume(props) {
         <ResumeHeading
           heading={"Personal Projects"}
           subHeading={"Front-End  Developer"}
-          fromDate={"2022"}
+          fromDate={"2023"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
             Over the past one year and a half, I've been on an exhilarating
-            journey to become a proficient Front End Developer.In the beginning,
-            my primary focus was mastering HTML, CSS, and JavaScript, which
-            paved the way for my exploration of web development. To enhance and
-            showcase my skills, I embarked on creating personal projects, such
-            as a React-based personal portfolio and a documentation app.
-            Additionally, I completed over 50 projects involving vanilla HTML,
-            CSS, and JavaScript, further solidifying my foundation. These
-            projects have been instrumental in refining my abilities and
-            demonstrating my commitment to the field. Looking ahead, I'm
+            journey to become a proficient Front End Developer. In the
+            beginning, my primary focus was mastering HTML, CSS, and JavaScript,
+            which paved the way for my exploration of web development.I
+            completed over 50 projects involving vanilla HTML, CSS, and
+            JavaScript to enhance and showcase my skills. Looking ahead, I'm
             dedicated to advancing my expertise in React and plan to delve into
             TypeScript to stay ahead in the ever-evolving world of front end
-            development. My journey is characterized by continuous learning,
-            hands-on experience, and an unwavering dedication to crafting
-            exceptional digital solutions.
+            development.
           </span>
           <br />
         </div>
@@ -197,7 +189,7 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Reading phantasy novels"
-        description='For me, there is nothing quite like immersing myself in the worlds of fantasy novels. I grew up reading "The Lord of the Rings," "Deltora Quest," the Harry Potter series, and many others. My library is something I take great pride in.'
+        description='For me, there is nothing quite like immersing myself in the worlds of fantasy novels. I love reading "The Lord of the Rings," and the "Deltora Quest". My library is something I take great pride in.'
       />
       <ResumeHeading
         heading="Movies and Series"
@@ -209,7 +201,7 @@ export default function Resume(props) {
       />
       <ResumeHeading
         heading="Gaming"
-        description="I enjoy challenging my gaming skills by playing a variety of games such as World of Warcraft, Mortal Kombat, Call of Duty, and more. One of my all-time favorite game series is Assassin's Creed."
+        description="I enjoy challenging my gaming skills by playing a variety of games. One of my all-time favorite game series is Assassin's Creed."
       />
     </div>,
   ];
