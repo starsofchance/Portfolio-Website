@@ -142,19 +142,18 @@ export default function Resume(props) {
             Over the past one year and a half, I've been on an exhilarating
             journey to become a proficient Front End Developer.In the beginning,
             my primary focus was mastering HTML, CSS, and JavaScript, which
-            paved the way for my exploration of web development. <br />
-            To enhance and showcase my skills, I embarked on creating personal
-            projects, such as a React-based personal portfolio and a
-            documentation app. Additionally, I completed over 50 projects
-            involving vanilla HTML, CSS, and JavaScript, further solidifying my
-            foundation. These projects have been instrumental in refining my
-            abilities and demonstrating my commitment to the field.
-            <br />
-            Looking ahead, I'm dedicated to advancing my expertise in React and
-            plan to delve into TypeScript to stay ahead in the ever-evolving
-            world of front end development. My journey is characterized by
-            continuous learning, hands-on experience, and an unwavering
-            dedication to crafting exceptional digital solutions.
+            paved the way for my exploration of web development. To enhance and
+            showcase my skills, I embarked on creating personal projects, such
+            as a React-based personal portfolio and a documentation app.
+            Additionally, I completed over 50 projects involving vanilla HTML,
+            CSS, and JavaScript, further solidifying my foundation. These
+            projects have been instrumental in refining my abilities and
+            demonstrating my commitment to the field. Looking ahead, I'm
+            dedicated to advancing my expertise in React and plan to delve into
+            TypeScript to stay ahead in the ever-evolving world of front end
+            development. My journey is characterized by continuous learning,
+            hands-on experience, and an unwavering dedication to crafting
+            exceptional digital solutions.
           </span>
           <br />
         </div>
@@ -198,7 +197,7 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Reading phantasy novels"
-        description='For me, there is nothing quite like immersing myself in the worlds of fantasy novels. I grew up reading "The Lord of the Rings," "The Hobbit," "Deltora Quest," the Harry Potter series, and many others. My library is something I take great pride in.'
+        description='For me, there is nothing quite like immersing myself in the worlds of fantasy novels. I grew up reading "The Lord of the Rings," "Deltora Quest," the Harry Potter series, and many others. My library is something I take great pride in.'
       />
       <ResumeHeading
         heading="Movies and Series"
